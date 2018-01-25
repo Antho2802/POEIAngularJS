@@ -3,8 +3,6 @@
 
   function HomeCtrl($location) {
     var vm = this;
-    
-    }
   }
 
   HomeCtrl.$inject = ['$location'];

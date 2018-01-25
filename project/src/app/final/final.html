@@ -1,0 +1,10 @@
+<div id="buvons">
+<input ng-model="final.msg">
+<button value="Buvons !" ng-click="final.clic()">Buvons !</button>
+    <ul>
+        <li ng-repeat="cocktail in final.cocktailSearchService.cocktailList">
+            <cocktail cocktail-element="cocktail"></cocktail>
+        </li>
+    </ul>
+</div>
+<div id="txt">{{final.search.ingredient}}</div>
